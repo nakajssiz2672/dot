@@ -13,7 +13,7 @@ Setup = {
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.1
+    ['Click Delay'] = 0.2
 }
 Hunter = {
     ['Ignore'] = {
@@ -26,7 +26,7 @@ Hunter = {
     ['Gun Mode'] = false,
     ['Predict Move'] = true,
     ['Hit And Run'] = true,
-    ['Random Position'] = true
+    ['Random Position'] = false
 }
 Booster = {
     ['Hide Gui'] = false,
@@ -55,9 +55,9 @@ Skills = {
         ['X'] = {true, 0.3, 0.4},
     },
     ['Gun'] = {
-        ['Enabled'] = {true, true},
-        ['Z'] = {true, 0.213, 0.545},
-        ['X'] = {true, 0.342, 0.763},
+        ['Enabled'] = {false, false},
+        ['Z'] = {true, 0.67, 0.98},
+        ['X'] = {true, 0.56, 0.78},
     }
 }
 Macro = {
@@ -87,11 +87,11 @@ Counter = {
                 ['Icon'] = '',
                 ['Button Image'] = '',
                 ['Color'] = {
-                    ['Text'] = Color3.fromRGB(100, 100, 100),
-                    ['Stroke'] = Color3.fromRGB(100, 100, 100)
+                    ['Text'] = Color3.fromRGB(255, 255, 255),
+                    ['Stroke'] = Color3.fromRGB(255, 255, 255)
                 }
             }
         }
     },
 }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/nakajssiz2672/dot/refs/heads/main/f_ku.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ErutTheTeru/ruahub/refs/heads/main/bounty-hunter.lua'))()
