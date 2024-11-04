@@ -13,7 +13,7 @@ Setup = {
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.2
+    ['Click Delay'] = 0.1
 }
 Hunter = {
     ['Ignore'] = {
@@ -56,8 +56,8 @@ Skills = {
     },
     ['Gun'] = {
         ['Enabled'] = {false, false},
-        ['Z'] = {true, 0.67, 0.98},
-        ['X'] = {true, 0.56, 0.78},
+        ['Z'] = {false, 0, 0},
+        ['X'] = {false, 0, 0},
     }
 }
 Macro = {
@@ -94,4 +94,4 @@ Counter = {
         }
     },
 }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/nakajssiz2672/dot/refs/heads/main/f_ku.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ErutTheTeru/ruahub/refs/heads/main/bounty-hunter.lua'))()
