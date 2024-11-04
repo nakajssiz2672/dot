@@ -56,8 +56,8 @@ Skills = {
     },
     ['Gun'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {false, 0, 0},
-        ['X'] = {false, 0, 0},
+        ['Z'] = {false, 0.9, 1.5},
+        ['X'] = {false, 0.6, 0.815},
     }
 }
 Macro = {
@@ -78,7 +78,7 @@ Counter = {
         ['Url'] = ''
     },
     ['Theme'] = {
-        ['Character'] = 'Yae',
+        ['Character'] = 'Zoro',
         ['Custom'] = {
             ['Enabled'] = false,
             ['Config'] = {
@@ -87,8 +87,8 @@ Counter = {
                 ['Icon'] = '',
                 ['Button Image'] = '',
                 ['Color'] = {
-                    ['Text'] = Color3.fromRGB(255, 255, 255),
-                    ['Stroke'] = Color3.fromRGB(255, 255, 255)
+                    ['Text'] = Color3.fromRGB(100, 100, 100),
+                    ['Stroke'] = Color3.fromRGB(100, 100, 100)
                 }
             }
         }
