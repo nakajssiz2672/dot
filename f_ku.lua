@@ -13,7 +13,7 @@ Setup = {
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.2
+    ['Click Delay'] = 0.1
 }
 Hunter = {
     ['Ignore'] = {
@@ -26,11 +26,11 @@ Hunter = {
     ['Gun Mode'] = false,
     ['Predict Move'] = true,
     ['Hit And Run'] = true,
-    ['Random Position'] = false
+    ['Random Position'] = true
 }
 Booster = {
     ['Hide Gui'] = false,
-    ['Showcase Mode'] = true,
+    ['Showcase Mode'] = false,
     ['White Screen'] = false,
     ['Hide Map'] = false
 }
@@ -56,8 +56,8 @@ Skills = {
     },
     ['Gun'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {false, 0.213, 0.545},
-        ['X'] = {false, 0.342, 0.763},
+        ['Z'] = {true, 0.213, 0.545},
+        ['X'] = {true, 0.342, 0.763},
     }
 }
 Macro = {
