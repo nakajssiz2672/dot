@@ -13,7 +13,7 @@ Setup = {
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.1
+    ['Click Delay'] = 0.2
 }
 Hunter = {
     ['Ignore'] = {
@@ -30,7 +30,7 @@ Hunter = {
 }
 Booster = {
     ['Hide Gui'] = false,
-    ['Showcase Mode'] = false,
+    ['Showcase Mode'] = true,
     ['White Screen'] = false,
     ['Hide Map'] = false
 }
@@ -56,8 +56,8 @@ Skills = {
     },
     ['Gun'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {false, 0.9, 1.5},
-        ['X'] = {false, 0.6, 0.815},
+        ['Z'] = {false, 0.213, 0.545},
+        ['X'] = {false, 0.342, 0.763},
     }
 }
 Macro = {
@@ -78,7 +78,7 @@ Counter = {
         ['Url'] = ''
     },
     ['Theme'] = {
-        ['Character'] = 'Zoro',
+        ['Character'] = 'Yae',
         ['Custom'] = {
             ['Enabled'] = false,
             ['Config'] = {
@@ -94,4 +94,4 @@ Counter = {
         }
     },
 }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/nakajssiz2672/dot/refs/heads/main/f_ku.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ErutTheTeru/ruahub/refs/heads/main/bounty-hunter.lua'))()
